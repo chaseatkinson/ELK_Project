@@ -65,7 +65,6 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
   The main advantage would be using YAML playbooks for the configuration, automation, and management of environments.  
 
 The playbook implements the following tasks:
-- In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
 - ... ssh into jump-Box with (ssh azadmin@52.160.68.11) and then start and attach to ansible container with (sudo docker start stupefied_ride)/(sudo docker attach stupefied_ride)
 - ... Create playbook file with (touch /etc/ansible/install_elk.yml) and edit the file with the appropriate tasks to run when the playbook launches.  
 - ... Run the playbook with (ansible-playbook /etc/ansible/install_elk.yml)
